@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Rubik:wght@800&display=swap");
+
+:root {
+  --space-cadet: #2b2d42;
+  --color-gray: #8d99ae;
+  --white-anti: #edf2f4;
+  --red: #d90429;
+  --black: #000;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-gray);
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 6rem;
+  width: 100%;
+  justify-content: end;
+
+  background: var(--white-anti);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 2.5rem;
+}
+
+.org {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-right: -2rem;
+}
+
+.menu {
+  width: 1.625rem;
+  height: 1.625rem;
+  margin-right: 1rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  height: 35rem;
+}
+
+section {
+  background: var(--white-anti);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+section h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-left: -10.81rem;
+  margin-bottom: 0.45rem;
+  margin-top: 0.5rem;
+}
+
+section p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  width: 14.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  width: 100%;
+  height: 4.8rem;
+  background: var(--space-cadet);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer span {
+  color: var(--color-gray);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.cpages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cpages a {
+  display: block;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding: 1rem;
+  color: var(--color-gray);
+  text-align: center;
+}
+
+:hover.morse {
+  cursor: pointer;
+  background: var(--red);
+  color: var(--white-anti);
+  font-weight: 700;
+  transition: 1s;
+}
+:hover.binario {
+  cursor: pointer;
+  background: var(--red);
+  color: var(--white-anti);
+  font-weight: 700;
+  transition: 0.4s;
+}
+:hover.tp {
+  cursor: pointer;
+  background: var(--red);
+  color: var(--white-anti);
+  font-weight: 700;
+  transition: 1s;
+}
+:hover.ia {
+  cursor: pointer;
+  background: var(--red);
+  color: var(--white-anti);
+  font-weight: 700;
+  transition: 1s;
+}
